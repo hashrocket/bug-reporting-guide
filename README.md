@@ -2,7 +2,7 @@
 
 ## Preface
 
-This document is intended to provide a good starting point for providing effective bug-reporting guidelines to clients of web projects. It is not intended to be a one-size-fits-all solution as every organisation is different so please adapt to your own needs and contribute anything you think is useful back to the project! Seriously though, please do. Just think about it, you can Tweet it and shit and everyone will think you're super knowledgeable!
+This document is intended to provide a good starting point for providing effective bug-reporting guidelines to clients of web projects. It is not intended to be a one-size-fits-all solution as every organization is different so please adapt to your own needs and contribute anything you think is useful back to the project! Seriously though, please do. Just think about it, you can Tweet it and stuff and everyone will think you're super knowledgeable!
 
 ---
 
@@ -14,7 +14,7 @@ A 'bug' is a defect in a website that causes it to behave in an unexpected way o
 - Submitting a form produces an error message.
 - A 'price calculator' returns an incorrect calculation.
 - An element that was present on a design or wireframe (that was signed-off) is missing.
-- A date is formatted incorrectly for the users locale (e.g. is in US format whereas it should be UK).
+- A date is formatted incorrectly for the users locale (e.g. is in UK format whereas it should be US).
 - A word is speeelled incorrectly. (hehe)
 
 ## What a bug is not
@@ -36,7 +36,7 @@ So how do we write an effective bug description? The key is to be accurate and d
 
 ### Where did the bug occur?
 
-Sometimes a widget that works on one page can fail on another. Provide a URL of the page it occurred—just copy it from the address bar of your browser, this can contain really important information if the page is using 'querystrings' (developer talk for the weird nonsense that appears after a '?' in the URL).
+Sometimes a widget that works on one page can fail on another. Provide a URL of the page it occurred — just copy it from the address bar of your browser, this can contain really important information if the page is using 'querystrings' (developer talk for the weird nonsense that appears after a '?' in the URL).
 
 ### What did you expect to happen?
 
@@ -48,11 +48,13 @@ Tell us _exactly_ what happened, not "it didn't work". If there's an error messa
 
 ### Steps to reproduce
 
-Obviously, we don't need to know that you had a cup of tea before clicking a link caused the bug but if you did anything else on the page (especially if its related) then mention that. If you clicked a particular button (where there are several), mention that. Put yourself in the developers shoes—they have to re-create your experience so be as descriptive as possible. If possible, re-create the bug yourself. This will allow you to identify the steps you took and make it easier to describe them. This is particularly important if the bug occurs in a system that is reasonably complex such as a lengthy form. Reproducing the bug yourself will also provide insight as to whether the bug is easily reproducible as it might not happen consistently and you will get a better idea of what you did that causes it to occur.
+Obviously, we don't need to know that you had a cup of coffee before clicking a link caused the bug but if you did anything else on the page (especially if its related) then mention that. If you clicked a particular button (where there are several), mention that. Put yourself in the developers shoes—they have to re-create your experience so be as descriptive as possible. If possible, re-create the bug yourself. This will allow you to identify the steps you took and make it easier to describe them. This is particularly important if the bug occurs in a system that is reasonably complex such as a lengthy form. Reproducing the bug yourself will also provide insight as to whether the bug is easily reproducible as it might not happen consistently and you will get a better idea of what you did that causes it to occur.
 
 ### Provide technical information
 
-Which web browser you are using is probably the most important piece of information you can provide. As any web developer will tell you, the various incarnations of Internet Explorer are the most common web browsers where unexpected things can occur. Providing the version (e.g. Internet Explorer _8_) is immensely helpful. Whether or not you are using a PC or Mac, iPhone, iPad or Android device is also important information.
+Which web browser you are using is probably the most important piece of information you can provide. As any web developer will tell you, the various incarnations of Internet Explorer are the most common web browsers where unexpected things can occur. Providing the version (e.g. Internet Explorer _11_) is immensely helpful. Whether or not you are using a PC or Mac, iPhone, iPad or Android device is also important information.
+
+One tool that can help you find the name and versions of the browser and operating systems that you are using is: https://mybrowser.fyi
 
 ### Avoid duplication
 
